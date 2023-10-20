@@ -1,0 +1,19 @@
+{
+  "name": "touch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "touch.js",
+  "scripts": {
+    "start": "node --watch touch.js",
+    "compile": "npx pkg ."
+  },
+  "bin": {
+    "touch": "touch.js"
+  },
+  "pkg": {
+    "targets": ["win"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
